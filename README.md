@@ -14,7 +14,7 @@ Cloning this repository should download this README.md, bulkRenameFiles.py, empt
 4. When the script finished, the new files will be generated in "destination" subfolder
 
 ## Examples (to be put inside bulkRenameFiles.py)
-sTemplate = "Today#.txt" 
+sTemplate = "Today#.txt"
 iStart = 1
 // file.txt, fileA.txt will rename to Today1.txt, Today2.txt
 
