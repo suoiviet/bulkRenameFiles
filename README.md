@@ -14,15 +14,15 @@ Cloning this repository should download this README.md, bulkRenameFiles.py, empt
 4. When the script finished, the new files will be generated in "destination" subfolder
 
 ## Examples (to be put inside bulkRenameFiles.py)
-sTemplate = "Today#.txt" 
-iStart = 1
+sTemplate = "Today#.txt"	
+iStart = 1		
 // file.txt, fileA.txt will rename to Today1.txt, Today2.txt
 
 //Using multiple #, zero(S) are left-padded to the numbers. ## is for 2 characters padding, ### is 3 characters, etc...
-sTemplate = "AsToday##.txt"
-iStart = 0
+sTemplate = "AsToday##.txt"		
+iStart = 0		
 // file.txt, fileA.txt will rename to AsToday01.txt, AsToday02.txt
 
-sTemplate = "Example###.log"
-iStart = 15
+sTemplate = "Example###.log"	
+iStart = 15		
 // file.txt, fileA.txt will rename to Example015.log, Example016.log, etc...
