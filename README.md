@@ -26,3 +26,5 @@ iStart = 0
 sTemplate = "Example###.log"  
 iStart = 15  
 // file.txt, fileA.txt will rename to Example015.log, Example016.log, etc...
+
+Edited: 2020-04-23
